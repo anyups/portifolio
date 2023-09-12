@@ -1,0 +1,47 @@
+/* Estilos gerais */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.card a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Efeito de hover */
+.card:hover {
+    transform: scale(1.05);
+}
